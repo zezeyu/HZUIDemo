@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22D151C365408AEAEDECA62C /* Pods_HZUIDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5609F4CAA3801AE7BD01858D /* Pods_HZUIDemoTests.framework */; };
+		7720EA7DB54C2BF0F0DF9495 /* Pods_HZUIDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B4452FCDD177D4AF05AA24 /* Pods_HZUIDemoUITests.framework */; };
+		C58DDB23C1FE17D5BF14E963 /* Pods_HZUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8066B38BA0D622AD0194572D /* Pods_HZUIDemo.framework */; };
 		E15B5C9B220B10F60069DD6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5C9A220B10F60069DD6F /* AppDelegate.swift */; };
-		E15B5C9D220B10F60069DD6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5C9C220B10F60069DD6F /* ViewController.swift */; };
 		E15B5CA0220B10F60069DD6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15B5C9E220B10F60069DD6F /* Main.storyboard */; };
 		E15B5CA2220B10F90069DD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15B5CA1220B10F90069DD6F /* Assets.xcassets */; };
 		E15B5CA5220B10F90069DD6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15B5CA3220B10F90069DD6F /* LaunchScreen.storyboard */; };
 		E15B5CB0220B10FA0069DD6F /* HZUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CAF220B10FA0069DD6F /* HZUIDemoTests.swift */; };
 		E15B5CBB220B10FA0069DD6F /* HZUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CBA220B10FA0069DD6F /* HZUIDemoUITests.swift */; };
+		E15B5CD5220C885C0069DD6F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CD4220C885C0069DD6F /* Common.swift */; };
+		E15B5CDB220C8BCE0069DD6F /* HZBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CDA220C8BCE0069DD6F /* HZBaseNavigationController.swift */; };
+		E15B5CDD220C8D190069DD6F /* HZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CDC220C8D190069DD6F /* HZBaseViewController.swift */; };
+		E15B5CDF220C8D510069DD6F /* HZBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CDE220C8D510069DD6F /* HZBaseTableViewController.swift */; };
+		E15B5CF2220C97340069DD6F /* HZBaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CF1220C97340069DD6F /* HZBaseTabBarViewController.swift */; };
+		E15B5CF8220C9A9C0069DD6F /* HZWeiBoHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CF7220C9A9C0069DD6F /* HZWeiBoHomeViewController.swift */; };
+		E15B5CFA220C9AB40069DD6F /* HZAlipayHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CF9220C9AB40069DD6F /* HZAlipayHomeViewController.swift */; };
+		E15B5CFC220C9AC50069DD6F /* HZComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CFB220C9AC50069DD6F /* HZComponentViewController.swift */; };
+		E15B5CFE220C9ADC0069DD6F /* HZAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CFD220C9ADC0069DD6F /* HZAboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5609F4CAA3801AE7BD01858D /* Pods_HZUIDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZUIDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8066B38BA0D622AD0194572D /* Pods_HZUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819D8FA507C4922FFA3F5040 /* Pods-HZUIDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUIDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZUIDemoUITests/Pods-HZUIDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83130F94AD5A07A9D84297CC /* Pods-HZUIDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUIDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZUIDemoUITests/Pods-HZUIDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		965035DF8BC0329056958BF8 /* Pods-HZUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZUIDemo/Pods-HZUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A7B4452FCDD177D4AF05AA24 /* Pods_HZUIDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZUIDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D270AC6624CE59FDB8365C47 /* Pods-HZUIDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUIDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZUIDemoTests/Pods-HZUIDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA8D69D85C5B275AB84C2FBF /* Pods-HZUIDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUIDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZUIDemoTests/Pods-HZUIDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		E15B5C97220B10F60069DD6F /* HZUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15B5C9A220B10F60069DD6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E15B5C9C220B10F60069DD6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E15B5C9F220B10F60069DD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E15B5CA1220B10F90069DD6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15B5CA4220B10F90069DD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,17 @@
 		E15B5CB6220B10FA0069DD6F /* HZUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15B5CBA220B10FA0069DD6F /* HZUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZUIDemoUITests.swift; sourceTree = "<group>"; };
 		E15B5CBC220B10FA0069DD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15B5CD4220C885C0069DD6F /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		E15B5CD6220C8A2F0069DD6F /* HZUIDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HZUIDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		E15B5CDA220C8BCE0069DD6F /* HZBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZBaseNavigationController.swift; sourceTree = "<group>"; };
+		E15B5CDC220C8D190069DD6F /* HZBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZBaseViewController.swift; sourceTree = "<group>"; };
+		E15B5CDE220C8D510069DD6F /* HZBaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZBaseTableViewController.swift; sourceTree = "<group>"; };
+		E15B5CF1220C97340069DD6F /* HZBaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZBaseTabBarViewController.swift; sourceTree = "<group>"; };
+		E15B5CF7220C9A9C0069DD6F /* HZWeiBoHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZWeiBoHomeViewController.swift; sourceTree = "<group>"; };
+		E15B5CF9220C9AB40069DD6F /* HZAlipayHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZAlipayHomeViewController.swift; sourceTree = "<group>"; };
+		E15B5CFB220C9AC50069DD6F /* HZComponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZComponentViewController.swift; sourceTree = "<group>"; };
+		E15B5CFD220C9ADC0069DD6F /* HZAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZAboutViewController.swift; sourceTree = "<group>"; };
+		FBCAD4395554EF8AA36E8A5B /* Pods-HZUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZUIDemo/Pods-HZUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C58DDB23C1FE17D5BF14E963 /* Pods_HZUIDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D151C365408AEAEDECA62C /* Pods_HZUIDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +99,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7720EA7DB54C2BF0F0DF9495 /* Pods_HZUIDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37EE4CD112CB8410ED2CD0F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8066B38BA0D622AD0194572D /* Pods_HZUIDemo.framework */,
+				5609F4CAA3801AE7BD01858D /* Pods_HZUIDemoTests.framework */,
+				A7B4452FCDD177D4AF05AA24 /* Pods_HZUIDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA877855770CFEF473922419 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				965035DF8BC0329056958BF8 /* Pods-HZUIDemo.debug.xcconfig */,
+				FBCAD4395554EF8AA36E8A5B /* Pods-HZUIDemo.release.xcconfig */,
+				D270AC6624CE59FDB8365C47 /* Pods-HZUIDemoTests.debug.xcconfig */,
+				DA8D69D85C5B275AB84C2FBF /* Pods-HZUIDemoTests.release.xcconfig */,
+				819D8FA507C4922FFA3F5040 /* Pods-HZUIDemoUITests.debug.xcconfig */,
+				83130F94AD5A07A9D84297CC /* Pods-HZUIDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E15B5C8E220B10F60069DD6F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +136,8 @@
 				E15B5CAE220B10FA0069DD6F /* HZUIDemoTests */,
 				E15B5CB9220B10FA0069DD6F /* HZUIDemoUITests */,
 				E15B5C98220B10F60069DD6F /* Products */,
+				AA877855770CFEF473922419 /* Pods */,
+				37EE4CD112CB8410ED2CD0F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +154,14 @@
 		E15B5C99220B10F60069DD6F /* HZUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E15B5CCB220C85280069DD6F /* Libs */,
+				E15B5CCA220C85280069DD6F /* Protocol */,
+				E15B5CCC220C85280069DD6F /* Service */,
+				E15B5CCD220C85280069DD6F /* Utils */,
+				E15B5CC9220C85280069DD6F /* ViewControllers */,
 				E15B5C9A220B10F60069DD6F /* AppDelegate.swift */,
-				E15B5C9C220B10F60069DD6F /* ViewController.swift */,
+				E15B5CD4220C885C0069DD6F /* Common.swift */,
+				E15B5CD6220C8A2F0069DD6F /* HZUIDemo-Bridging-Header.h */,
 				E15B5C9E220B10F60069DD6F /* Main.storyboard */,
 				E15B5CA1220B10F90069DD6F /* Assets.xcassets */,
 				E15B5CA3220B10F90069DD6F /* LaunchScreen.storyboard */,
@@ -125,6 +188,129 @@
 			path = HZUIDemoUITests;
 			sourceTree = "<group>";
 		};
+		E15B5CC9220C85280069DD6F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E15B5CF3220C98A20069DD6F /* WeiBoHome */,
+				E15B5CF5220C999D0069DD6F /* AlipayHome */,
+				E15B5CF6220C999E0069DD6F /* Component */,
+				E15B5CF4220C999D0069DD6F /* About */,
+				E15B5CCE220C87040069DD6F /* BaseViewController */,
+				E15B5CCF220C87040069DD6F /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E15B5CCA220C85280069DD6F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E15B5CD3220C87D70069DD6F /* View */,
+				E15B5CD2220C87BD0069DD6F /* UINavigationBar */,
+				E15B5CD1220C879A0069DD6F /* ViewModel */,
+				E15B5CD0220C878D0069DD6F /* MJRefresh */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		E15B5CCB220C85280069DD6F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		E15B5CCC220C85280069DD6F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E15B5CCD220C85280069DD6F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E15B5CCE220C87040069DD6F /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E15B5CDA220C8BCE0069DD6F /* HZBaseNavigationController.swift */,
+				E15B5CDC220C8D190069DD6F /* HZBaseViewController.swift */,
+				E15B5CDE220C8D510069DD6F /* HZBaseTableViewController.swift */,
+				E15B5CF1220C97340069DD6F /* HZBaseTabBarViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		E15B5CCF220C87040069DD6F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E15B5CD0220C878D0069DD6F /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		E15B5CD1220C879A0069DD6F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E15B5CD2220C87BD0069DD6F /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		E15B5CD3220C87D70069DD6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E15B5CF3220C98A20069DD6F /* WeiBoHome */ = {
+			isa = PBXGroup;
+			children = (
+				E15B5CF7220C9A9C0069DD6F /* HZWeiBoHomeViewController.swift */,
+			);
+			path = WeiBoHome;
+			sourceTree = "<group>";
+		};
+		E15B5CF4220C999D0069DD6F /* About */ = {
+			isa = PBXGroup;
+			children = (
+				E15B5CFD220C9ADC0069DD6F /* HZAboutViewController.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		E15B5CF5220C999D0069DD6F /* AlipayHome */ = {
+			isa = PBXGroup;
+			children = (
+				E15B5CF9220C9AB40069DD6F /* HZAlipayHomeViewController.swift */,
+			);
+			path = AlipayHome;
+			sourceTree = "<group>";
+		};
+		E15B5CF6220C999E0069DD6F /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				E15B5CFB220C9AC50069DD6F /* HZComponentViewController.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +318,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E15B5CBF220B10FA0069DD6F /* Build configuration list for PBXNativeTarget "HZUIDemo" */;
 			buildPhases = (
+				21F9256E388F6F1D44200F6F /* [CP] Check Pods Manifest.lock */,
 				E15B5C93220B10F60069DD6F /* Sources */,
 				E15B5C94220B10F60069DD6F /* Frameworks */,
 				E15B5C95220B10F60069DD6F /* Resources */,
+				84C3D5B76F6CCEADB0DB65E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +337,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E15B5CC2220B10FA0069DD6F /* Build configuration list for PBXNativeTarget "HZUIDemoTests" */;
 			buildPhases = (
+				548320FC92E03E74F9965D91 /* [CP] Check Pods Manifest.lock */,
 				E15B5CA7220B10FA0069DD6F /* Sources */,
 				E15B5CA8220B10FA0069DD6F /* Frameworks */,
 				E15B5CA9220B10FA0069DD6F /* Resources */,
@@ -167,6 +356,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E15B5CC5220B10FA0069DD6F /* Build configuration list for PBXNativeTarget "HZUIDemoUITests" */;
 			buildPhases = (
+				4A4DC842ED839BCF18E24898 /* [CP] Check Pods Manifest.lock */,
 				E15B5CB2220B10FA0069DD6F /* Sources */,
 				E15B5CB3220B10FA0069DD6F /* Frameworks */,
 				E15B5CB4220B10FA0069DD6F /* Resources */,
@@ -187,12 +377,14 @@
 		E15B5C8F220B10F60069DD6F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HZ;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "何泽的mac";
 				TargetAttributes = {
 					E15B5C96220B10F60069DD6F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					E15B5CAA220B10FA0069DD6F = {
 						CreatedOnToolsVersion = 10.1;
@@ -251,12 +443,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21F9256E388F6F1D44200F6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZUIDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A4DC842ED839BCF18E24898 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZUIDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		548320FC92E03E74F9965D91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZUIDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84C3D5B76F6CCEADB0DB65E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HZUIDemo/Pods-HZUIDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/ReusableKit/ReusableKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReusableKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZUIDemo/Pods-HZUIDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E15B5C93220B10F60069DD6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15B5C9D220B10F60069DD6F /* ViewController.swift in Sources */,
+				E15B5CF2220C97340069DD6F /* HZBaseTabBarViewController.swift in Sources */,
+				E15B5CFC220C9AC50069DD6F /* HZComponentViewController.swift in Sources */,
+				E15B5CFE220C9ADC0069DD6F /* HZAboutViewController.swift in Sources */,
+				E15B5CF8220C9A9C0069DD6F /* HZWeiBoHomeViewController.swift in Sources */,
+				E15B5CFA220C9AB40069DD6F /* HZAlipayHomeViewController.swift in Sources */,
+				E15B5CD5220C885C0069DD6F /* Common.swift in Sources */,
+				E15B5CDF220C8D510069DD6F /* HZBaseTableViewController.swift in Sources */,
+				E15B5CDD220C8D190069DD6F /* HZBaseViewController.swift in Sources */,
+				E15B5CDB220C8BCE0069DD6F /* HZBaseNavigationController.swift in Sources */,
 				E15B5C9B220B10F60069DD6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,42 +739,52 @@
 		};
 		E15B5CC0220B10FA0069DD6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965035DF8BC0329056958BF8 /* Pods-HZUIDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B3539P8YN;
 				INFOPLIST_FILE = HZUIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cheanda.carmonitorv1.HZUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HZUIDemo/HZUIDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E15B5CC1220B10FA0069DD6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCAD4395554EF8AA36E8A5B /* Pods-HZUIDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B3539P8YN;
 				INFOPLIST_FILE = HZUIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cheanda.carmonitorv1.HZUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HZUIDemo/HZUIDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		E15B5CC3220B10FA0069DD6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D270AC6624CE59FDB8365C47 /* Pods-HZUIDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +806,7 @@
 		};
 		E15B5CC4220B10FA0069DD6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8D69D85C5B275AB84C2FBF /* Pods-HZUIDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +828,7 @@
 		};
 		E15B5CC6220B10FA0069DD6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819D8FA507C4922FFA3F5040 /* Pods-HZUIDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +849,7 @@
 		};
 		E15B5CC7220B10FA0069DD6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83130F94AD5A07A9D84297CC /* Pods-HZUIDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

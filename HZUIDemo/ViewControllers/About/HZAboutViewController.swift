@@ -9,5 +9,8 @@
 import UIKit
 
 class HZAboutViewController: HZBaseViewController {
-
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        title = "我"
+    }
 }

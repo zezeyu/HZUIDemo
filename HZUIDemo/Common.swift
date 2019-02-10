@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import SnapKit
+import Then
 
 ///全屏宽
 let kScreenWidth = UIScreen.main.bounds.width
@@ -43,6 +44,15 @@ func RGBA(r:CGFloat,g:CGFloat,b:CGFloat,a:CGFloat) -> UIColor {
     
     return UIColor (red: r/255.0, green: g/255.0, blue: b/255.0, alpha: a)
 }
+//////颜色
+///item的文字颜色
+let itemTextColor:UIColor = UIColor.qmui_color(withHexString: "#8a8a8a")!
+let itemSelectedTextColor:UIColor = UIColor.qmui_color(withHexString: "#1296db")!
+///页面背景色
+let VCBackgroundColor:UIColor = RGB(r: 235.0, g: 235.0, b: 235.0)
+///字体颜色
+let textColor_normal:UIColor = RGB(r: 51.0, g: 51.0, b: 51.0)
+
 ///判断是不是iphone x
 let is_iPhoneX = hasHeader ? true : false
 //封装的日志输出功能（T表示不指定日志信息参数类型）

@@ -9,5 +9,8 @@
 import UIKit
 
 class HZAlipayHomeViewController: HZBaseViewController {
-
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        title = "支付宝"
+    }
 }

@@ -25,6 +25,11 @@
 		E15B5CFA220C9AB40069DD6F /* HZAlipayHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CF9220C9AB40069DD6F /* HZAlipayHomeViewController.swift */; };
 		E15B5CFC220C9AC50069DD6F /* HZComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CFB220C9AC50069DD6F /* HZComponentViewController.swift */; };
 		E15B5CFE220C9ADC0069DD6F /* HZAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5CFD220C9ADC0069DD6F /* HZAboutViewController.swift */; };
+		E15B5D01221058B40069DD6F /* HZWbToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5D00221058B40069DD6F /* HZWbToastView.swift */; };
+		E15B5D0322105A6D0069DD6F /* Num+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5D0222105A6D0069DD6F /* Num+Frame.swift */; };
+		E15B5D0522105F450069DD6F /* HZWbTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5D0422105F450069DD6F /* HZWbTopView.swift */; };
+		E15B5D0B22106DD20069DD6F /* HZViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5D0A22106DD20069DD6F /* HZViewModelType.swift */; };
+		E15B5D0D22106E360069DD6F /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5D0C22106E360069DD6F /* NibLoadable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +80,11 @@
 		E15B5CF9220C9AB40069DD6F /* HZAlipayHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZAlipayHomeViewController.swift; sourceTree = "<group>"; };
 		E15B5CFB220C9AC50069DD6F /* HZComponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZComponentViewController.swift; sourceTree = "<group>"; };
 		E15B5CFD220C9ADC0069DD6F /* HZAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZAboutViewController.swift; sourceTree = "<group>"; };
+		E15B5D00221058B40069DD6F /* HZWbToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZWbToastView.swift; sourceTree = "<group>"; };
+		E15B5D0222105A6D0069DD6F /* Num+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Num+Frame.swift"; sourceTree = "<group>"; };
+		E15B5D0422105F450069DD6F /* HZWbTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZWbTopView.swift; sourceTree = "<group>"; };
+		E15B5D0A22106DD20069DD6F /* HZViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZViewModelType.swift; sourceTree = "<group>"; };
+		E15B5D0C22106E360069DD6F /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		FBCAD4395554EF8AA36E8A5B /* Pods-HZUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZUIDemo/Pods-HZUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -229,6 +239,7 @@
 		E15B5CCD220C85280069DD6F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E15B5D0222105A6D0069DD6F /* Num+Frame.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -261,6 +272,7 @@
 		E15B5CD1220C879A0069DD6F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E15B5D0A22106DD20069DD6F /* HZViewModelType.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -275,6 +287,7 @@
 		E15B5CD3220C87D70069DD6F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E15B5D0C22106E360069DD6F /* NibLoadable.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				E15B5CF7220C9A9C0069DD6F /* HZWeiBoHomeViewController.swift */,
+				E15B5CFF2210574D0069DD6F /* View */,
 			);
 			path = WeiBoHome;
 			sourceTree = "<group>";
@@ -309,6 +323,15 @@
 				E15B5CFB220C9AC50069DD6F /* HZComponentViewController.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		E15B5CFF2210574D0069DD6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E15B5D00221058B40069DD6F /* HZWbToastView.swift */,
+				E15B5D0422105F450069DD6F /* HZWbTopView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -507,6 +530,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-HZUIDemo/Pods-HZUIDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
@@ -518,6 +542,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -528,6 +553,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
@@ -539,6 +565,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxGesture.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
@@ -559,13 +586,18 @@
 			files = (
 				E15B5CF2220C97340069DD6F /* HZBaseTabBarViewController.swift in Sources */,
 				E15B5CFC220C9AC50069DD6F /* HZComponentViewController.swift in Sources */,
+				E15B5D01221058B40069DD6F /* HZWbToastView.swift in Sources */,
 				E15B5CFE220C9ADC0069DD6F /* HZAboutViewController.swift in Sources */,
 				E15B5CF8220C9A9C0069DD6F /* HZWeiBoHomeViewController.swift in Sources */,
 				E15B5CFA220C9AB40069DD6F /* HZAlipayHomeViewController.swift in Sources */,
 				E15B5CD5220C885C0069DD6F /* Common.swift in Sources */,
+				E15B5D0B22106DD20069DD6F /* HZViewModelType.swift in Sources */,
+				E15B5D0D22106E360069DD6F /* NibLoadable.swift in Sources */,
 				E15B5CDF220C8D510069DD6F /* HZBaseTableViewController.swift in Sources */,
+				E15B5D0322105A6D0069DD6F /* Num+Frame.swift in Sources */,
 				E15B5CDD220C8D190069DD6F /* HZBaseViewController.swift in Sources */,
 				E15B5CDB220C8BCE0069DD6F /* HZBaseNavigationController.swift in Sources */,
+				E15B5D0522105F450069DD6F /* HZWbTopView.swift in Sources */,
 				E15B5C9B220B10F60069DD6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

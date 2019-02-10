@@ -12,8 +12,8 @@ class HZBaseViewController: QMUICommonViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.automaticallyAdjustsScrollViewInsets = false
+        view.backgroundColor = VCBackgroundColor
     }
     
     override func shouldCustomizeNavigationBarTransitionIfHideable() -> Bool {

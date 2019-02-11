@@ -52,6 +52,8 @@ let itemSelectedTextColor:UIColor = UIColor.qmui_color(withHexString: "#1296db")
 let VCBackgroundColor:UIColor = RGB(r: 235.0, g: 235.0, b: 235.0)
 ///字体颜色
 let textColor_normal:UIColor = RGB(r: 51.0, g: 51.0, b: 51.0)
+///微博主调色橙色
+let Wb_Color_normal:UIColor = RGB(r: 225, g: 175, b: 100)
 
 ///判断是不是iphone x
 let is_iPhoneX = hasHeader ? true : false

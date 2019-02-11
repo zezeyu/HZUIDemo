@@ -10,7 +10,6 @@ import UIKit
 
 fileprivate struct Metric {
     static let height:CGFloat = 34.hr
-    static let bgColor:UIColor = RGB(r: 225, g: 175, b: 100)
     static let textSize:CGFloat = 17.wr
 }
 class HZWbToastView: UIView {
@@ -22,7 +21,7 @@ class HZWbToastView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = Metric.bgColor
+        backgroundColor = Wb_Color_normal
         initUI()
     }
     //更新了多少条微博

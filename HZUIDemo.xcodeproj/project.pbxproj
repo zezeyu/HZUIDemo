@@ -10,6 +10,16 @@
 		22D151C365408AEAEDECA62C /* Pods_HZUIDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5609F4CAA3801AE7BD01858D /* Pods_HZUIDemoTests.framework */; };
 		7720EA7DB54C2BF0F0DF9495 /* Pods_HZUIDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B4452FCDD177D4AF05AA24 /* Pods_HZUIDemoUITests.framework */; };
 		C58DDB23C1FE17D5BF14E963 /* Pods_HZUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8066B38BA0D622AD0194572D /* Pods_HZUIDemo.framework */; };
+		E1467D3F22113BF500A37651 /* UIView+UseExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1467D3E22113BF500A37651 /* UIView+UseExt.swift */; };
+		E1467D4122113DEC00A37651 /* HZWbStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1467D4022113DEC00A37651 /* HZWbStoryView.swift */; };
+		E1467D4322113E0500A37651 /* HZWbStoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1467D4222113E0500A37651 /* HZWbStoryView.xib */; };
+		E1467D452211576700A37651 /* HZNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1467D442211576700A37651 /* HZNetwork.swift */; };
+		E1467D472211598800A37651 /* RequestUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1467D462211598800A37651 /* RequestUrl.swift */; };
+		E1467D4E2211726700A37651 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1467D492211726700A37651 /* Reachability.swift */; };
+		E1467D4F2211726700A37651 /* ObservableType+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1467D4B2211726700A37651 /* ObservableType+ObjectMapper.swift */; };
+		E1467D502211726700A37651 /* Single+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1467D4C2211726700A37651 /* Single+ObjectMapper.swift */; };
+		E1467D512211726700A37651 /* Response+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1467D4D2211726700A37651 /* Response+ObjectMapper.swift */; };
+		E1467D542211745E00A37651 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E1467D532211745E00A37651 /* UIViewController+Utils.m */; };
 		E15B5C9B220B10F60069DD6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B5C9A220B10F60069DD6F /* AppDelegate.swift */; };
 		E15B5CA0220B10F60069DD6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15B5C9E220B10F60069DD6F /* Main.storyboard */; };
 		E15B5CA2220B10F90069DD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15B5CA1220B10F90069DD6F /* Assets.xcassets */; };
@@ -58,6 +68,17 @@
 		A7B4452FCDD177D4AF05AA24 /* Pods_HZUIDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZUIDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D270AC6624CE59FDB8365C47 /* Pods-HZUIDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUIDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZUIDemoTests/Pods-HZUIDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA8D69D85C5B275AB84C2FBF /* Pods-HZUIDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUIDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZUIDemoTests/Pods-HZUIDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1467D3E22113BF500A37651 /* UIView+UseExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+UseExt.swift"; sourceTree = "<group>"; };
+		E1467D4022113DEC00A37651 /* HZWbStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZWbStoryView.swift; sourceTree = "<group>"; };
+		E1467D4222113E0500A37651 /* HZWbStoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HZWbStoryView.xib; sourceTree = "<group>"; };
+		E1467D442211576700A37651 /* HZNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZNetwork.swift; sourceTree = "<group>"; };
+		E1467D462211598800A37651 /* RequestUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestUrl.swift; sourceTree = "<group>"; };
+		E1467D492211726700A37651 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		E1467D4B2211726700A37651 /* ObservableType+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+ObjectMapper.swift"; sourceTree = "<group>"; };
+		E1467D4C2211726700A37651 /* Single+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+ObjectMapper.swift"; sourceTree = "<group>"; };
+		E1467D4D2211726700A37651 /* Response+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+ObjectMapper.swift"; sourceTree = "<group>"; };
+		E1467D522211745D00A37651 /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
+		E1467D532211745E00A37651 /* UIViewController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
 		E15B5C97220B10F60069DD6F /* HZUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15B5C9A220B10F60069DD6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E15B5C9F220B10F60069DD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -137,6 +158,24 @@
 				83130F94AD5A07A9D84297CC /* Pods-HZUIDemoUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1467D482211726700A37651 /* Reachabilty */ = {
+			isa = PBXGroup;
+			children = (
+				E1467D492211726700A37651 /* Reachability.swift */,
+			);
+			path = Reachabilty;
+			sourceTree = "<group>";
+		};
+		E1467D4A2211726700A37651 /* Moya-ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				E1467D4B2211726700A37651 /* ObservableType+ObjectMapper.swift */,
+				E1467D4C2211726700A37651 /* Single+ObjectMapper.swift */,
+				E1467D4D2211726700A37651 /* Response+ObjectMapper.swift */,
+			);
+			path = "Moya-ObjectMapper";
 			sourceTree = "<group>";
 		};
 		E15B5C8E220B10F60069DD6F = {
@@ -225,6 +264,8 @@
 		E15B5CCB220C85280069DD6F /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				E1467D4A2211726700A37651 /* Moya-ObjectMapper */,
+				E1467D482211726700A37651 /* Reachabilty */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -232,6 +273,8 @@
 		E15B5CCC220C85280069DD6F /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				E1467D442211576700A37651 /* HZNetwork.swift */,
+				E1467D462211598800A37651 /* RequestUrl.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -240,6 +283,9 @@
 			isa = PBXGroup;
 			children = (
 				E15B5D0222105A6D0069DD6F /* Num+Frame.swift */,
+				E1467D3E22113BF500A37651 /* UIView+UseExt.swift */,
+				E1467D522211745D00A37651 /* UIViewController+Utils.h */,
+				E1467D532211745E00A37651 /* UIViewController+Utils.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -330,6 +376,8 @@
 			children = (
 				E15B5D00221058B40069DD6F /* HZWbToastView.swift */,
 				E15B5D0422105F450069DD6F /* HZWbTopView.swift */,
+				E1467D4022113DEC00A37651 /* HZWbStoryView.swift */,
+				E1467D4222113E0500A37651 /* HZWbStoryView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -445,6 +493,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E15B5CA5220B10F90069DD6F /* LaunchScreen.storyboard in Resources */,
+				E1467D4322113E0500A37651 /* HZWbStoryView.xib in Resources */,
 				E15B5CA2220B10F90069DD6F /* Assets.xcassets in Resources */,
 				E15B5CA0220B10F60069DD6F /* Main.storyboard in Resources */,
 			);
@@ -584,11 +633,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1467D452211576700A37651 /* HZNetwork.swift in Sources */,
+				E1467D3F22113BF500A37651 /* UIView+UseExt.swift in Sources */,
 				E15B5CF2220C97340069DD6F /* HZBaseTabBarViewController.swift in Sources */,
 				E15B5CFC220C9AC50069DD6F /* HZComponentViewController.swift in Sources */,
+				E1467D542211745E00A37651 /* UIViewController+Utils.m in Sources */,
 				E15B5D01221058B40069DD6F /* HZWbToastView.swift in Sources */,
 				E15B5CFE220C9ADC0069DD6F /* HZAboutViewController.swift in Sources */,
+				E1467D512211726700A37651 /* Response+ObjectMapper.swift in Sources */,
 				E15B5CF8220C9A9C0069DD6F /* HZWeiBoHomeViewController.swift in Sources */,
+				E1467D4F2211726700A37651 /* ObservableType+ObjectMapper.swift in Sources */,
 				E15B5CFA220C9AB40069DD6F /* HZAlipayHomeViewController.swift in Sources */,
 				E15B5CD5220C885C0069DD6F /* Common.swift in Sources */,
 				E15B5D0B22106DD20069DD6F /* HZViewModelType.swift in Sources */,
@@ -596,8 +650,12 @@
 				E15B5CDF220C8D510069DD6F /* HZBaseTableViewController.swift in Sources */,
 				E15B5D0322105A6D0069DD6F /* Num+Frame.swift in Sources */,
 				E15B5CDD220C8D190069DD6F /* HZBaseViewController.swift in Sources */,
+				E1467D472211598800A37651 /* RequestUrl.swift in Sources */,
 				E15B5CDB220C8BCE0069DD6F /* HZBaseNavigationController.swift in Sources */,
+				E1467D4122113DEC00A37651 /* HZWbStoryView.swift in Sources */,
 				E15B5D0522105F450069DD6F /* HZWbTopView.swift in Sources */,
+				E1467D502211726700A37651 /* Single+ObjectMapper.swift in Sources */,
+				E1467D4E2211726700A37651 /* Reachability.swift in Sources */,
 				E15B5C9B220B10F60069DD6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
